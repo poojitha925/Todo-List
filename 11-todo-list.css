@@ -15,7 +15,7 @@ font-family:Arial;
 }
 .todo-input-grid{
  text-align:center;
-    background-image: url('./todo.webp');
+    background-image: url('./pic1.jpg');
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     justify-content: center;
     flex-direction: column;
