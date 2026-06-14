@@ -1,0 +1,79 @@
+body{
+font-family:Arial;
+}
+.input-name,.input-date{
+  padding:10px;
+  font-size:15px;
+}
+
+.todo-grid,.todo-input-grid{
+  display:grid;
+  grid-template-columns:200px 150px 100px;
+  column-gap:10px;
+  row-gap:10px;
+  align-items:center;
+}
+.todo-input-grid{
+ text-align:center;
+    background-image: url('./todo.webp');
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+ padding:10px 20px;
+  margin:180px 540px;
+ height: 400px; 
+   width:500px;
+  
+
+}
+.btn-grad-delete {
+  background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+}
+
+.btn-grad-delete {
+  margin: 10px;
+  padding: 15px;
+  padding-left:20px;
+  padding-right:68px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad-delete:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-grad {
+  background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #000000;
+  text-decoration: none;
+}
